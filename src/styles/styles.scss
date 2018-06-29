@@ -1,4 +1,6 @@
-@import './base/settings.scss';
-@import './base/base.scss';
+@import './base/_settings';
+@import './base/_base';
 
-@import './components/navigation.scss';
+@import './components/_navigation';
+@import './components/_container';
+@import './components/_form-group';

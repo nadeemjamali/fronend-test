@@ -1,0 +1,17 @@
+.form-group {
+    padding-bottom: sSize;
+    display: flex;
+}
+
+.form-group__label {
+    min-width: 15rem;
+    padding: sSize;
+    text-align: right;
+}
+
+.form-group__input {
+    flex-grow: 1;
+    padding: sSize;
+    border: 1px solid $mainColor;
+    background: $mainColor;
+}
