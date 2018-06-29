@@ -2,29 +2,26 @@ import React from 'react';
 
 import { connect } from 'react-redux';
 
-class Login extends React.Component{
+class Registeration extends React.Component{
     constructor(props) {
         super(props);
     
         this.state = {
             loginId: '',
-            password: ''
+            password: '',
+            firstName: '',
+            lastName: ''
         };
     }
-
     render(){
-        return (
-            <form onSubmit={}>
-            </form>
-        )
+        return (<div>Registeration View</div>)
     }
 }
 
-
 const mapStateToProps = (state) => {
     return {
-      auth: state.auth
+      registeration: state.registeration
     };
 };
 
-export default connect(mapStateToProps)(Login);
+export default connect(mapStateToProps)(Registeration);
