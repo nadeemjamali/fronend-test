@@ -59,12 +59,12 @@ class Login extends React.Component{
                     maxLength="250" value={this.state.password} onChange={this.onPasswordChange} />
                 </div>
 
-                <div>
+                <div className="form-group">
                 <label htmlFor="rememberMe" className="form-group__label">Remember Me:</label>
                     <input type="checkbox" name="rememberMe" id="rememberMe" className="form-group__input" checked={this.state.rememberMe} 
                     onChange={this.onLoginIdChange}/>
                 </div>
-                <div className="form-group text-center">
+                <div className="form-group">
                     <button id="btn-submit" className="btn btn-primary" type="submit">Log In</button>
                 </div>        
             </form>
